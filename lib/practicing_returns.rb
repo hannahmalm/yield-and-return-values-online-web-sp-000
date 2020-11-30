@@ -8,5 +8,7 @@ def hello(array)
   end
 end
 
+#the return value of a while loop is always nil. If you want the method to return something else, you have to tell it to do something
+
 binding.pry
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
